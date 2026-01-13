@@ -46,8 +46,13 @@ volumes:
 ```bash
 docker compose up -d
 ```
----
+#### Connecting docker container to pgAdmin 4
+* register - > server
+* Host name: localhost
+* Port: 5332
+* Connect
 
+---
 ### 🧭 Navigating PostgreSQL Container
 #### Enter the container
 
