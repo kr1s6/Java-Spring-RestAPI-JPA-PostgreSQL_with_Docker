@@ -64,9 +64,9 @@ psql -U (username = postgres)
 #### Useful PostgreSQL commands
 
 ```sql
-\l              -- list databases
+\l    \list          -- list databases
 CREATE DATABASE spring;
-\c spring        -- connect to database
+\c spring   \connect    -- connect to database
 \d              -- list tables
 \d engineers    -- show table structure
 ```
