@@ -71,6 +71,11 @@ CREATE DATABASE spring;
 \d engineers    -- show table structure
 ```
 
+#### Deleting DB
+DELETE DATABASE name;
+docker compose down -v
+-v - removes data volumes, and your db
+
 ---
 
 ### 📊 Fetching Data from PostgreSQL
