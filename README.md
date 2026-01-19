@@ -82,7 +82,7 @@ CREATE DATABASE spring;
 ```sql
 DELETE DATABASE name;
 docker compose down -v
--v - removes data volumes, and your db
+-v - removes data volumes and your db (is needed to create db again with docker compose up)
 ```
 
 ---
