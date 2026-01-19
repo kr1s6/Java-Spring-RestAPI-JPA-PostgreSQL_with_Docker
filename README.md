@@ -69,11 +69,13 @@ psql -U (username = postgres)
 #### Useful PostgreSQL commands
 
 ```sql
-\l    \list          -- list databases
+\l    \list              -- list databases
 CREATE DATABASE spring;
-\c spring   \connect    -- connect to database
-\d              -- list tables
-\d engineers    -- show table structure
+\c spring   \connect     -- connect to database
+\q 						           -- exit psql 
+\c postgres				       -- exit to base database
+\d                       -- list tables
+\d engineers             -- show table structure
 ```
 
 #### Deleting DB
